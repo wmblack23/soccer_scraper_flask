@@ -1,0 +1,1 @@
+.table {  border-spacing: 0;  margin: 1rem;  background-color: #D4E6F1;}.table__row:nth-child(even) {  background-color: #FDFEFE;}.table__header {  text-align: left;}.table__cell {  padding: 8px;}
