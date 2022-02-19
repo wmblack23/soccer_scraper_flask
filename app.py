@@ -33,7 +33,7 @@ def home():
         else:
             return choose_gif(path)
     
-    image = choose_gif("/Users/michaelblack/Desktop/Michael Projects/flask/Soccer Scraping Flask/Soccer Flask/static")
+    image = choose_gif("static")
     my_today = date_today
     
     return render_template("home_two.html", date_today=date_today, image=image)
